@@ -7,7 +7,7 @@ export default function Home() {
       <h2 className='text-2xl md:text-4xl lg:text-6xl'>Conexión sin limites</h2>
       <img src="build.gif" alt="WSK Soft - Sitio Web" className="object-cover my-8"/>
        <p className='text-xl lg:text-3xl'>Estamos construyendo nuestro sitio web</p>
-       <p  className='text-xl lg:text-3xl'><strong>¡ESPERANOS!</strong></p>
+       <p  className='text-xl lg:text-3xl'><strong>¡ESPÉRANOS!</strong></p>
     </main>
   )
 }
