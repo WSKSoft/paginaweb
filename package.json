@@ -1,23 +1,48 @@
 {
-  "name": "paginaweb",
+  "name": "the-weirdos",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "13.5.4"
+    "@fontsource/akaya-telivigala": "^5.0.8",
+    "@fontsource/sora": "^5.0.15",
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "gsap": "^3.9.1",
+    "normalize.css": "^8.0.1",
+    "react": "^18.2.0",
+    "react-confetti": "^6.0.1",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "^5.0.1",
+    "react-use": "^17.3.2",
+    "styled-components": "^6.1.0",
+    "swiper": "^10.3.1",
+    "typewriter-effect": "^2.18.2",
+    "web-vitals": "^3.3.1"
   },
-  "devDependencies": {
-    "autoprefixer": "^10",
-    "postcss": "^8",
-    "tailwindcss": "^3",
-    "eslint": "^8",
-    "eslint-config-next": "13.5.4"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
